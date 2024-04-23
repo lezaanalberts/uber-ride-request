@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Uber Drive Request</title>
+    <style>
+      .request{
+        font-family:Roboto;
+        font-size: 35px;
+      }
+      .pickup, .destination{
+        display: block;
+        padding-left: 15px;
+        padding-right: 200px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-family: roboto;
+        background-color: rgb(217, 213, 213);
+        color: gray;
+        border-style: none;
+      }
+      .pickup{
+        margin-bottom: 5px;
+        
+      }
+
+      .request-now, .schedule{
+        border-style:none;
+        font-weight: bold;
+        padding: 10px 20px 10px 20px;
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+      .request-now{
+       color: white;
+       background-color: black;
+      }
+
+      .schedule{
+        background-color:rgb(217, 213, 213);
+        color: black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p class="request">Request a ride now</p>
+    <input class="pickup" type="text" placeholder="Enter pickup location">
+    <input class="destination" type="text" placeholder="Enter destination">
+    <button class="request-now">
+      Request now
+    </button>
+    <button class="schedule">
+      Schedule for later
+    </button>
+  </body>
+</html>
